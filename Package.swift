@@ -8,9 +8,11 @@ let package = Package(
 	products: [
 		.library(name: "PlaceholderImages", targets: ["PlaceholderImages"])
 	],
-	dependencies: [],
+	dependencies: [
+		.package(url: "https://github.com/Appsaurus/SwiftTestUtils",  .upToNextMajor(from: "0.1.0"))
+	],
 	targets: [
 	.target(name: "PlaceholderImages", dependencies: [], path: "Sources/Shared"),
-		.testTarget(name: "PlaceholderImagesTests", dependencies: ["PlaceholderImages"], path: "PlaceholderImagesTests/Shared")
+		.testTarget(name: "PlaceholderImagesTests", dependencies: ["PlaceholderImages", "SwiftTestUtils"], path: "PlaceholderImagesTests/Shared")
 	]
 )

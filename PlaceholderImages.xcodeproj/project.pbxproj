@@ -6,1145 +6,658 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"PlaceholderImages::PlaceholderImagesPackageTests::ProductTarget" /* PlaceholderImagesPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_52 /* Build configuration list for PBXAggregateTarget "PlaceholderImagesPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_55 /* PBXTargetDependency */,
+			);
+			name = PlaceholderImagesPackageTests;
+			productName = PlaceholderImagesPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		D284B0F61F79024300D94AF3 /* macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B0F51F79024300D94AF3 /* macOS.swift */; };
-		D284B1051F79038B00D94AF3 /* PlaceholderImages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D284B0FC1F79038B00D94AF3 /* PlaceholderImages.framework */; };
-		D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1221F79041C00D94AF3 /* tvOS.swift */; };
-		D284B1251F79042800D94AF3 /* watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1241F79042800D94AF3 /* watchOS.swift */; };
-		D284B1381F7906DB00D94AF3 /* Info-iOS-Tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = D284B12F1F7906DA00D94AF3 /* Info-iOS-Tests.plist */; };
-		D284B1391F7906DB00D94AF3 /* Info-tvOS-Tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = D284B1301F7906DA00D94AF3 /* Info-tvOS-Tests.plist */; };
-		D284B13B1F7906DB00D94AF3 /* Info-macOS-Tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = D284B1331F7906DA00D94AF3 /* Info-macOS-Tests.plist */; };
-		D284B13E1F7907AD00D94AF3 /* tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B13D1F7907AD00D94AF3 /* tvOSTests.swift */; };
-		D284B1441F7908B100D94AF3 /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1321F7906DA00D94AF3 /* SharedTests.swift */; };
-		D284B1451F7908B200D94AF3 /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1321F7906DA00D94AF3 /* SharedTests.swift */; };
-		D284B1461F7908B300D94AF3 /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1321F7906DA00D94AF3 /* SharedTests.swift */; };
-		D284B1471F7908B800D94AF3 /* iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B1361F7906DA00D94AF3 /* iOSTests.swift */; };
-		D284B1481F7908BB00D94AF3 /* macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D284B12E1F7906DA00D94AF3 /* macOSTests.swift */; };
-		D284B1491F790CA200D94AF3 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
-		D284B14A1F790CA200D94AF3 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
-		D5B2E8AA1C3A780C00C0327D /* PlaceholderImages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2E89F1C3A780C00C0327D /* PlaceholderImages.framework */; };
-		D5C6294A1C3A7FAA007F7B7C /* PlaceholderImages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C629401C3A7FAA007F7B7C /* PlaceholderImages.framework */; };
-		D5C629831C3A892A007F7B7C /* iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629821C3A892A007F7B7C /* iOS.swift */; };
-		D5C629871C3A89A8007F7B7C /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
-		D5C629881C3A89A8007F7B7C /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C629861C3A89A8007F7B7C /* Shared.swift */; };
+		OBJ_37 /* ImageURLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* ImageURLProvider.swift */; };
+		OBJ_38 /* PlaceholderImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* PlaceholderImageGenerator.swift */; };
+		OBJ_39 /* DummyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DummyImage.swift */; };
+		OBJ_40 /* LoremFlickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* LoremFlickr.swift */; };
+		OBJ_41 /* LoremPixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* LoremPixel.swift */; };
+		OBJ_42 /* PlaceImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* PlaceImg.swift */; };
+		OBJ_43 /* Unsplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Unsplash.swift */; };
+		OBJ_50 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_61 /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* SharedTests.swift */; };
+		OBJ_63 /* SwiftTestUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftTestUtils::SwiftTestUtils::Product" /* SwiftTestUtils.framework */; };
+		OBJ_64 /* PlaceholderImages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PlaceholderImages::PlaceholderImages::Product" /* PlaceholderImages.framework */; };
+		OBJ_72 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* BaseTestCase.swift */; };
+		OBJ_73 /* LinuxTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* LinuxTestable.swift */; };
+		OBJ_74 /* XCAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* XCAssertions.swift */; };
+		OBJ_81 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D284B1061F79038B00D94AF3 /* PBXContainerItemProxy */ = {
+		E49DB6A020BCB50200D772D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D5B2E8961C3A780C00C0327D /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D284B0FB1F79038B00D94AF3;
-			remoteInfo = "PlaceholderImages-tvOS";
+			remoteGlobalIDString = "SwiftTestUtils::SwiftTestUtils";
+			remoteInfo = SwiftTestUtils;
 		};
-		D5B2E8AB1C3A780C00C0327D /* PBXContainerItemProxy */ = {
+		E49DB6A120BCB50200D772D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D5B2E8961C3A780C00C0327D /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D5B2E89E1C3A780C00C0327D;
+			remoteGlobalIDString = "PlaceholderImages::PlaceholderImages";
 			remoteInfo = PlaceholderImages;
 		};
-		D5C6294B1C3A7FAA007F7B7C /* PBXContainerItemProxy */ = {
+		E49DB6A220BCB50200D772D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D5B2E8961C3A780C00C0327D /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D5C6293F1C3A7FAA007F7B7C;
-			remoteInfo = "PlaceholderImages-Mac";
+			remoteGlobalIDString = "PlaceholderImages::PlaceholderImagesTests";
+			remoteInfo = PlaceholderImagesTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D284B0F51F79024300D94AF3 /* macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOS.swift; sourceTree = "<group>"; };
-		D284B0FC1F79038B00D94AF3 /* PlaceholderImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlaceholderImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D284B1041F79038B00D94AF3 /* PlaceholderImages-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlaceholderImages-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D284B1181F79039F00D94AF3 /* PlaceholderImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlaceholderImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D284B1221F79041C00D94AF3 /* tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOS.swift; sourceTree = "<group>"; };
-		D284B1241F79042800D94AF3 /* watchOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOS.swift; sourceTree = "<group>"; };
-		D284B12E1F7906DA00D94AF3 /* macOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOSTests.swift; sourceTree = "<group>"; };
-		D284B12F1F7906DA00D94AF3 /* Info-iOS-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS-Tests.plist"; sourceTree = "<group>"; };
-		D284B1301F7906DA00D94AF3 /* Info-tvOS-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS-Tests.plist"; sourceTree = "<group>"; };
-		D284B1321F7906DA00D94AF3 /* SharedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedTests.swift; sourceTree = "<group>"; };
-		D284B1331F7906DA00D94AF3 /* Info-macOS-Tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS-Tests.plist"; sourceTree = "<group>"; };
-		D284B1361F7906DA00D94AF3 /* iOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSTests.swift; sourceTree = "<group>"; };
-		D284B13D1F7907AD00D94AF3 /* tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSTests.swift; sourceTree = "<group>"; };
-		D284B1401F79081F00D94AF3 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
-		D284B1411F79081F00D94AF3 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
-		D284B1421F79081F00D94AF3 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
-		D284B1431F79081F00D94AF3 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
-		D500FD111C3AABED00782D78 /* Playground-iOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-iOS.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		D500FD121C3AAC8E00782D78 /* Playground-macOS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Playground-macOS.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		D5B2E89F1C3A780C00C0327D /* PlaceholderImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlaceholderImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B2E8A91C3A780C00C0327D /* PlaceholderImages-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlaceholderImages-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C629401C3A7FAA007F7B7C /* PlaceholderImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlaceholderImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C629491C3A7FAA007F7B7C /* PlaceholderImages-macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PlaceholderImages-macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C629821C3A892A007F7B7C /* iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
-		D5C629861C3A89A8007F7B7C /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		OBJ_11 /* DummyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyImage.swift; sourceTree = "<group>"; };
+		OBJ_12 /* LoremFlickr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoremFlickr.swift; sourceTree = "<group>"; };
+		OBJ_13 /* LoremPixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoremPixel.swift; sourceTree = "<group>"; };
+		OBJ_14 /* PlaceImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceImg.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Unsplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash.swift; sourceTree = "<group>"; };
+		OBJ_17 /* SharedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTests.swift; sourceTree = "<group>"; };
+		OBJ_18 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = SOURCE_ROOT; };
+		OBJ_19 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
+		OBJ_20 /* PlaceholderImagesTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PlaceholderImagesTests; sourceTree = SOURCE_ROOT; };
+		OBJ_21 /* Info */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Info; sourceTree = SOURCE_ROOT; };
+		OBJ_24 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/brianstrobach/Appsaurus/CompanyProjects/OpenSource/swift/PlaceholderImages/.build/checkouts/SwiftTestUtils-3371106396395558887/Package.swift"; sourceTree = "<group>"; };
+		OBJ_25 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		OBJ_26 /* LinuxTestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxTestable.swift; sourceTree = "<group>"; };
+		OBJ_27 /* XCAssertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCAssertions.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_8 /* ImageURLProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLProvider.swift; sourceTree = "<group>"; };
+		OBJ_9 /* PlaceholderImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderImageGenerator.swift; sourceTree = "<group>"; };
+		"PlaceholderImages::PlaceholderImages::Product" /* PlaceholderImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PlaceholderImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PlaceholderImages::PlaceholderImagesTests::Product" /* PlaceholderImagesTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlaceholderImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftTestUtils::SwiftTestUtils::Product" /* SwiftTestUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftTestUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D284B0F81F79038B00D94AF3 /* Frameworks */ = {
+		OBJ_44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D284B1011F79038B00D94AF3 /* Frameworks */ = {
+		OBJ_62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				D284B1051F79038B00D94AF3 /* PlaceholderImages.framework in Frameworks */,
+				OBJ_63 /* SwiftTestUtils.framework in Frameworks */,
+				OBJ_64 /* PlaceholderImages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D284B1141F79039F00D94AF3 /* Frameworks */ = {
+		OBJ_75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5B2E89B1C3A780C00C0327D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5B2E8A61C3A780C00C0327D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5B2E8AA1C3A780C00C0327D /* PlaceholderImages.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5C6293C1C3A7FAA007F7B7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5C629461C3A7FAA007F7B7C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5C6294A1C3A7FAA007F7B7C /* PlaceholderImages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D284B0F41F79024300D94AF3 /* macOS */ = {
+		OBJ_10 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
-				D284B0F51F79024300D94AF3 /* macOS.swift */,
+				OBJ_11 /* DummyImage.swift */,
+				OBJ_12 /* LoremFlickr.swift */,
+				OBJ_13 /* LoremPixel.swift */,
+				OBJ_14 /* PlaceImg.swift */,
+				OBJ_15 /* Unsplash.swift */,
 			);
-			path = macOS;
+			path = Providers;
 			sourceTree = "<group>";
 		};
-		D284B1201F79041300D94AF3 /* tvOS */ = {
+		OBJ_16 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D284B1221F79041C00D94AF3 /* tvOS.swift */,
+				OBJ_17 /* SharedTests.swift */,
 			);
-			path = tvOS;
+			name = Tests;
+			path = PlaceholderImagesTests/Shared;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_22 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* SwiftTestUtils 0.1.1 */,
+			);
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		D284B1211F79041300D94AF3 /* watchOS */ = {
+		OBJ_23 /* SwiftTestUtils 0.1.1 */ = {
 			isa = PBXGroup;
 			children = (
-				D284B1241F79042800D94AF3 /* watchOS.swift */,
+				OBJ_24 /* Package.swift */,
+				OBJ_25 /* BaseTestCase.swift */,
+				OBJ_26 /* LinuxTestable.swift */,
+				OBJ_27 /* XCAssertions.swift */,
 			);
-			path = watchOS;
-			sourceTree = "<group>";
+			name = "SwiftTestUtils 0.1.1";
+			path = ".build/checkouts/SwiftTestUtils-3371106396395558887/Sources/Shared";
+			sourceTree = SOURCE_ROOT;
 		};
-		D284B12D1F7906DA00D94AF3 /* macOS */ = {
+		OBJ_28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D284B12E1F7906DA00D94AF3 /* macOSTests.swift */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		D284B1311F7906DA00D94AF3 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				D284B1321F7906DA00D94AF3 /* SharedTests.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		D284B1341F7906DA00D94AF3 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				D284B13D1F7907AD00D94AF3 /* tvOSTests.swift */,
-			);
-			path = tvOS;
-			sourceTree = "<group>";
-		};
-		D284B1351F7906DA00D94AF3 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D284B1361F7906DA00D94AF3 /* iOSTests.swift */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		D284B13F1F79081F00D94AF3 /* Info */ = {
-			isa = PBXGroup;
-			children = (
-				D284B1401F79081F00D94AF3 /* Info-iOS.plist */,
-				D284B1411F79081F00D94AF3 /* Info-macOS.plist */,
-				D284B1421F79081F00D94AF3 /* Info-tvOS.plist */,
-				D284B1431F79081F00D94AF3 /* Info-watchOS.plist */,
-			);
-			path = Info;
-			sourceTree = "<group>";
-		};
-		D5B2E8951C3A780C00C0327D = {
-			isa = PBXGroup;
-			children = (
-				D500FD111C3AABED00782D78 /* Playground-iOS.playground */,
-				D500FD121C3AAC8E00782D78 /* Playground-macOS.playground */,
-				D284B13F1F79081F00D94AF3 /* Info */,
-				D5C629691C3A809D007F7B7C /* Sources */,
-				D5C6298F1C3A8BDA007F7B7C /* PlaceholderImagesTests */,
-				D5B2E8A01C3A780C00C0327D /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		D5B2E8A01C3A780C00C0327D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D5B2E89F1C3A780C00C0327D /* PlaceholderImages.framework */,
-				D5B2E8A91C3A780C00C0327D /* PlaceholderImages-iOS-Tests.xctest */,
-				D5C629401C3A7FAA007F7B7C /* PlaceholderImages.framework */,
-				D5C629491C3A7FAA007F7B7C /* PlaceholderImages-macOS-Tests.xctest */,
-				D284B0FC1F79038B00D94AF3 /* PlaceholderImages.framework */,
-				D284B1041F79038B00D94AF3 /* PlaceholderImages-tvOS-Tests.xctest */,
-				D284B1181F79039F00D94AF3 /* PlaceholderImages.framework */,
+				"SwiftTestUtils::SwiftTestUtils::Product" /* SwiftTestUtils.framework */,
+				"PlaceholderImages::PlaceholderImages::Product" /* PlaceholderImages.framework */,
+				"PlaceholderImages::PlaceholderImagesTests::Product" /* PlaceholderImagesTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D5C629691C3A809D007F7B7C /* Sources */ = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				D284B1201F79041300D94AF3 /* tvOS */,
-				D284B1211F79041300D94AF3 /* watchOS */,
-				D284B0F41F79024300D94AF3 /* macOS */,
-				D5C6296A1C3A809D007F7B7C /* iOS */,
-				D5C6296E1C3A809D007F7B7C /* Shared */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_16 /* Tests */,
+				OBJ_18 /* bin */,
+				OBJ_19 /* Example */,
+				OBJ_20 /* PlaceholderImagesTests */,
+				OBJ_21 /* Info */,
+				OBJ_22 /* Dependencies */,
+				OBJ_28 /* Products */,
 			);
-			path = Sources;
+			name = "";
 			sourceTree = "<group>";
 		};
-		D5C6296A1C3A809D007F7B7C /* iOS */ = {
+		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D5C629821C3A892A007F7B7C /* iOS.swift */,
+				OBJ_8 /* ImageURLProvider.swift */,
+				OBJ_9 /* PlaceholderImageGenerator.swift */,
+				OBJ_10 /* Providers */,
 			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		D5C6296E1C3A809D007F7B7C /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				D5C629861C3A89A8007F7B7C /* Shared.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		D5C6298F1C3A8BDA007F7B7C /* PlaceholderImagesTests */ = {
-			isa = PBXGroup;
-			children = (
-				D284B12F1F7906DA00D94AF3 /* Info-iOS-Tests.plist */,
-				D284B1331F7906DA00D94AF3 /* Info-macOS-Tests.plist */,
-				D284B1301F7906DA00D94AF3 /* Info-tvOS-Tests.plist */,
-				D284B1351F7906DA00D94AF3 /* iOS */,
-				D284B12D1F7906DA00D94AF3 /* macOS */,
-				D284B1311F7906DA00D94AF3 /* Shared */,
-				D284B1341F7906DA00D94AF3 /* tvOS */,
-			);
-			path = PlaceholderImagesTests;
-			sourceTree = "<group>";
+			name = Sources;
+			path = Sources/Shared;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		D284B0F91F79038B00D94AF3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D284B1151F79039F00D94AF3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5B2E89C1C3A780C00C0327D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5C6293D1C3A7FAA007F7B7C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		D284B0FB1F79038B00D94AF3 /* PlaceholderImages-tvOS */ = {
+		"PlaceholderImages::PlaceholderImages" /* PlaceholderImages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D284B10D1F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "PlaceholderImages-tvOS" */;
+			buildConfigurationList = OBJ_33 /* Build configuration list for PBXNativeTarget "PlaceholderImages" */;
 			buildPhases = (
-				D284B0F71F79038B00D94AF3 /* Sources */,
-				D284B0F81F79038B00D94AF3 /* Frameworks */,
-				D284B0F91F79038B00D94AF3 /* Headers */,
-				D284B0FA1F79038B00D94AF3 /* Resources */,
+				OBJ_36 /* Sources */,
+				OBJ_44 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "PlaceholderImages-tvOS";
-			productName = "PlaceholderImages-tvOS";
-			productReference = D284B0FC1F79038B00D94AF3 /* PlaceholderImages.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D284B1031F79038B00D94AF3 /* PlaceholderImages-tvOS-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D284B1101F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "PlaceholderImages-tvOS-Tests" */;
-			buildPhases = (
-				D284B1001F79038B00D94AF3 /* Sources */,
-				D284B1011F79038B00D94AF3 /* Frameworks */,
-				D284B1021F79038B00D94AF3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D284B1071F79038B00D94AF3 /* PBXTargetDependency */,
-			);
-			name = "PlaceholderImages-tvOS-Tests";
-			productName = "PlaceholderImages-tvOSTests";
-			productReference = D284B1041F79038B00D94AF3 /* PlaceholderImages-tvOS-Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D284B1171F79039F00D94AF3 /* PlaceholderImages-watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D284B11D1F79039F00D94AF3 /* Build configuration list for PBXNativeTarget "PlaceholderImages-watchOS" */;
-			buildPhases = (
-				D284B1131F79039F00D94AF3 /* Sources */,
-				D284B1141F79039F00D94AF3 /* Frameworks */,
-				D284B1151F79039F00D94AF3 /* Headers */,
-				D284B1161F79039F00D94AF3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PlaceholderImages-watchOS";
-			productName = "PlaceholderImages-watchOS";
-			productReference = D284B1181F79039F00D94AF3 /* PlaceholderImages.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D5B2E89E1C3A780C00C0327D /* PlaceholderImages-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "PlaceholderImages-iOS" */;
-			buildPhases = (
-				D5B2E89A1C3A780C00C0327D /* Sources */,
-				D5B2E89B1C3A780C00C0327D /* Frameworks */,
-				D5B2E89C1C3A780C00C0327D /* Headers */,
-				D5B2E89D1C3A780C00C0327D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PlaceholderImages-iOS";
+			name = PlaceholderImages;
 			productName = PlaceholderImages;
-			productReference = D5B2E89F1C3A780C00C0327D /* PlaceholderImages.framework */;
+			productReference = "PlaceholderImages::PlaceholderImages::Product" /* PlaceholderImages.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D5B2E8A81C3A780C00C0327D /* PlaceholderImages-iOS-Tests */ = {
+		"PlaceholderImages::PlaceholderImagesTests" /* PlaceholderImagesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "PlaceholderImages-iOS-Tests" */;
+			buildConfigurationList = OBJ_57 /* Build configuration list for PBXNativeTarget "PlaceholderImagesTests" */;
 			buildPhases = (
-				D5B2E8A51C3A780C00C0327D /* Sources */,
-				D5B2E8A61C3A780C00C0327D /* Frameworks */,
-				D5B2E8A71C3A780C00C0327D /* Resources */,
+				OBJ_60 /* Sources */,
+				OBJ_62 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D5B2E8AC1C3A780C00C0327D /* PBXTargetDependency */,
+				OBJ_65 /* PBXTargetDependency */,
+				OBJ_67 /* PBXTargetDependency */,
 			);
-			name = "PlaceholderImages-iOS-Tests";
+			name = PlaceholderImagesTests;
 			productName = PlaceholderImagesTests;
-			productReference = D5B2E8A91C3A780C00C0327D /* PlaceholderImages-iOS-Tests.xctest */;
+			productReference = "PlaceholderImages::PlaceholderImagesTests::Product" /* PlaceholderImagesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D5C6293F1C3A7FAA007F7B7C /* PlaceholderImages-macOS */ = {
+		"PlaceholderImages::SwiftPMPackageDescription" /* PlaceholderImagesPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "PlaceholderImages-macOS" */;
+			buildConfigurationList = OBJ_46 /* Build configuration list for PBXNativeTarget "PlaceholderImagesPackageDescription" */;
 			buildPhases = (
-				D5C6293B1C3A7FAA007F7B7C /* Sources */,
-				D5C6293C1C3A7FAA007F7B7C /* Frameworks */,
-				D5C6293D1C3A7FAA007F7B7C /* Headers */,
-				D5C6293E1C3A7FAA007F7B7C /* Resources */,
+				OBJ_49 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "PlaceholderImages-macOS";
-			productName = "PlaceholderImages-Mac";
-			productReference = D5C629401C3A7FAA007F7B7C /* PlaceholderImages.framework */;
+			name = PlaceholderImagesPackageDescription;
+			productName = PlaceholderImagesPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		D5C629481C3A7FAA007F7B7C /* PlaceholderImages-macOS-Tests */ = {
+		"SwiftTestUtils::SwiftPMPackageDescription" /* SwiftTestUtilsPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "PlaceholderImages-macOS-Tests" */;
+			buildConfigurationList = OBJ_77 /* Build configuration list for PBXNativeTarget "SwiftTestUtilsPackageDescription" */;
 			buildPhases = (
-				D5C629451C3A7FAA007F7B7C /* Sources */,
-				D5C629461C3A7FAA007F7B7C /* Frameworks */,
-				D5C629471C3A7FAA007F7B7C /* Resources */,
+				OBJ_80 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D5C6294C1C3A7FAA007F7B7C /* PBXTargetDependency */,
 			);
-			name = "PlaceholderImages-macOS-Tests";
-			productName = "PlaceholderImages-MacTests";
-			productReference = D5C629491C3A7FAA007F7B7C /* PlaceholderImages-macOS-Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = SwiftTestUtilsPackageDescription;
+			productName = SwiftTestUtilsPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftTestUtils::SwiftTestUtils" /* SwiftTestUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_68 /* Build configuration list for PBXNativeTarget "SwiftTestUtils" */;
+			buildPhases = (
+				OBJ_71 /* Sources */,
+				OBJ_75 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTestUtils;
+			productName = SwiftTestUtils;
+			productReference = "SwiftTestUtils::SwiftTestUtils::Product" /* SwiftTestUtils.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D5B2E8961C3A780C00C0327D /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Brian Strobach";
-				TargetAttributes = {
-					D284B0FB1F79038B00D94AF3 = {
-						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					D284B1031F79038B00D94AF3 = {
-						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					D284B1171F79039F00D94AF3 = {
-						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					D5B2E89E1C3A780C00C0327D = {
-						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0900;
-					};
-					D5B2E8A81C3A780C00C0327D = {
-						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0900;
-					};
-					D5C6293F1C3A7FAA007F7B7C = {
-						CreatedOnToolsVersion = 7.2;
-					};
-					D5C629481C3A7FAA007F7B7C = {
-						CreatedOnToolsVersion = 7.2;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "PlaceholderImages" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "PlaceholderImages" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D5B2E8951C3A780C00C0327D;
-			productRefGroup = D5B2E8A01C3A780C00C0327D /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5B2E89E1C3A780C00C0327D /* PlaceholderImages-iOS */,
-				D5B2E8A81C3A780C00C0327D /* PlaceholderImages-iOS-Tests */,
-				D5C6293F1C3A7FAA007F7B7C /* PlaceholderImages-macOS */,
-				D5C629481C3A7FAA007F7B7C /* PlaceholderImages-macOS-Tests */,
-				D284B0FB1F79038B00D94AF3 /* PlaceholderImages-tvOS */,
-				D284B1031F79038B00D94AF3 /* PlaceholderImages-tvOS-Tests */,
-				D284B1171F79039F00D94AF3 /* PlaceholderImages-watchOS */,
+				"PlaceholderImages::PlaceholderImages" /* PlaceholderImages */,
+				"PlaceholderImages::SwiftPMPackageDescription" /* PlaceholderImagesPackageDescription */,
+				"PlaceholderImages::PlaceholderImagesPackageTests::ProductTarget" /* PlaceholderImagesPackageTests */,
+				"PlaceholderImages::PlaceholderImagesTests" /* PlaceholderImagesTests */,
+				"SwiftTestUtils::SwiftTestUtils" /* SwiftTestUtils */,
+				"SwiftTestUtils::SwiftPMPackageDescription" /* SwiftTestUtilsPackageDescription */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		D284B0FA1F79038B00D94AF3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D284B1021F79038B00D94AF3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D284B1161F79039F00D94AF3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D284B1391F7906DB00D94AF3 /* Info-tvOS-Tests.plist in Resources */,
-				D284B1381F7906DB00D94AF3 /* Info-iOS-Tests.plist in Resources */,
-				D284B13B1F7906DB00D94AF3 /* Info-macOS-Tests.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5B2E89D1C3A780C00C0327D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5B2E8A71C3A780C00C0327D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5C6293E1C3A7FAA007F7B7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5C629471C3A7FAA007F7B7C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		D284B0F71F79038B00D94AF3 /* Sources */ = {
+		OBJ_36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				D284B1491F790CA200D94AF3 /* Shared.swift in Sources */,
-				D284B1231F79041C00D94AF3 /* tvOS.swift in Sources */,
+				OBJ_37 /* ImageURLProvider.swift in Sources */,
+				OBJ_38 /* PlaceholderImageGenerator.swift in Sources */,
+				OBJ_39 /* DummyImage.swift in Sources */,
+				OBJ_40 /* LoremFlickr.swift in Sources */,
+				OBJ_41 /* LoremPixel.swift in Sources */,
+				OBJ_42 /* PlaceImg.swift in Sources */,
+				OBJ_43 /* Unsplash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D284B1001F79038B00D94AF3 /* Sources */ = {
+		OBJ_49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				D284B1441F7908B100D94AF3 /* SharedTests.swift in Sources */,
-				D284B13E1F7907AD00D94AF3 /* tvOSTests.swift in Sources */,
+				OBJ_50 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D284B1131F79039F00D94AF3 /* Sources */ = {
+		OBJ_60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				D284B14A1F790CA200D94AF3 /* Shared.swift in Sources */,
-				D284B1251F79042800D94AF3 /* watchOS.swift in Sources */,
+				OBJ_61 /* SharedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5B2E89A1C3A780C00C0327D /* Sources */ = {
+		OBJ_71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				D5C629831C3A892A007F7B7C /* iOS.swift in Sources */,
-				D5C629871C3A89A8007F7B7C /* Shared.swift in Sources */,
+				OBJ_72 /* BaseTestCase.swift in Sources */,
+				OBJ_73 /* LinuxTestable.swift in Sources */,
+				OBJ_74 /* XCAssertions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5B2E8A51C3A780C00C0327D /* Sources */ = {
+		OBJ_80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				D284B1461F7908B300D94AF3 /* SharedTests.swift in Sources */,
-				D284B1471F7908B800D94AF3 /* iOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5C6293B1C3A7FAA007F7B7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5C629881C3A89A8007F7B7C /* Shared.swift in Sources */,
-				D284B0F61F79024300D94AF3 /* macOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5C629451C3A7FAA007F7B7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D284B1451F7908B200D94AF3 /* SharedTests.swift in Sources */,
-				D284B1481F7908BB00D94AF3 /* macOSTests.swift in Sources */,
+				OBJ_81 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D284B1071F79038B00D94AF3 /* PBXTargetDependency */ = {
+		OBJ_55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D284B0FB1F79038B00D94AF3 /* PlaceholderImages-tvOS */;
-			targetProxy = D284B1061F79038B00D94AF3 /* PBXContainerItemProxy */;
+			target = "PlaceholderImages::PlaceholderImagesTests" /* PlaceholderImagesTests */;
+			targetProxy = E49DB6A220BCB50200D772D8 /* PBXContainerItemProxy */;
 		};
-		D5B2E8AC1C3A780C00C0327D /* PBXTargetDependency */ = {
+		OBJ_65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5B2E89E1C3A780C00C0327D /* PlaceholderImages-iOS */;
-			targetProxy = D5B2E8AB1C3A780C00C0327D /* PBXContainerItemProxy */;
+			target = "SwiftTestUtils::SwiftTestUtils" /* SwiftTestUtils */;
+			targetProxy = E49DB6A020BCB50200D772D8 /* PBXContainerItemProxy */;
 		};
-		D5C6294C1C3A7FAA007F7B7C /* PBXTargetDependency */ = {
+		OBJ_67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D5C6293F1C3A7FAA007F7B7C /* PlaceholderImages-macOS */;
-			targetProxy = D5C6294B1C3A7FAA007F7B7C /* PBXContainerItemProxy */;
+			target = "PlaceholderImages::PlaceholderImages" /* PlaceholderImages */;
+			targetProxy = E49DB6A120BCB50200D772D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D284B10E1F79038B00D94AF3 /* Debug */ = {
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-tvOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.PlaceholderImages-tvOS";
-				PRODUCT_NAME = PlaceholderImages;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
-			};
-			name = Debug;
-		};
-		D284B10F1F79038B00D94AF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-tvOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.PlaceholderImages-tvOS";
-				PRODUCT_NAME = PlaceholderImages;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
-			};
-			name = Release;
-		};
-		D284B1111F79038B00D94AF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/PlaceholderImagesTests/Info-tvOS-Tests.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.PlaceholderImages-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
-			};
-			name = Debug;
-		};
-		D284B1121F79038B00D94AF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/PlaceholderImagesTests/Info-tvOS-Tests.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.PlaceholderImages-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
-			};
-			name = Release;
-		};
-		D284B11E1F79039F00D94AF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-watchOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.PlaceholderImages-watchOS";
-				PRODUCT_NAME = PlaceholderImages;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
-		D284B11F1F79039F00D94AF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-watchOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.PlaceholderImages-watchOS";
-				PRODUCT_NAME = PlaceholderImages;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
-		D5B2E8B11C3A780C00C0327D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		D5B2E8B21C3A780C00C0327D /* Release */ = {
+		OBJ_34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PlaceholderImages.xcodeproj/PlaceholderImages_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PlaceholderImages;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PlaceholderImages;
+			};
+			name = Debug;
+		};
+		OBJ_35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PlaceholderImages.xcodeproj/PlaceholderImages_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PlaceholderImages;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PlaceholderImages;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		D5B2E8B41C3A780C00C0327D /* Debug */ = {
+		OBJ_47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-iOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.Appsaurus.PlaceholderImages.demo.PlaceholderImages-iOS";
-				PRODUCT_NAME = PlaceholderImages;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		D5B2E8B51C3A780C00C0327D /* Release */ = {
+		OBJ_48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-iOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.Appsaurus.PlaceholderImages.demo.PlaceholderImages-iOS";
-				PRODUCT_NAME = PlaceholderImages;
-				SKIP_INSTALL = YES;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
-		D5B2E8B71C3A780C00C0327D /* Debug */ = {
+		OBJ_53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+			};
+			name = Debug;
+		};
+		OBJ_54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/PlaceholderImagesTests/Info-iOS-Tests.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.PlaceholderImagesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PlaceholderImages.xcodeproj/PlaceholderImagesTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PlaceholderImagesTests;
+			};
+			name = Debug;
+		};
+		OBJ_59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PlaceholderImages.xcodeproj/PlaceholderImagesTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PlaceholderImagesTests;
+			};
+			name = Release;
+		};
+		OBJ_69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PlaceholderImages.xcodeproj/SwiftTestUtils_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftTestUtils;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftTestUtils;
+			};
+			name = Debug;
+		};
+		OBJ_70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PlaceholderImages.xcodeproj/SwiftTestUtils_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftTestUtils;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftTestUtils;
+			};
+			name = Release;
+		};
+		OBJ_78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		D5B2E8B81C3A780C00C0327D /* Release */ = {
+		OBJ_79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/PlaceholderImagesTests/Info-iOS-Tests.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.PlaceholderImagesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		D5C629521C3A7FAA007F7B7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-macOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.Appsaurus.PlaceholderImages.demo.PlaceholderImages-macOS";
-				PRODUCT_NAME = PlaceholderImages;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		D5C629531C3A7FAA007F7B7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-macOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.Appsaurus.PlaceholderImages.demo.PlaceholderImages-macOS";
-				PRODUCT_NAME = PlaceholderImages;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D5C629551C3A7FAA007F7B7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/PlaceholderImagesTests/Info-macOS-Tests.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.PlaceholderImages-MacTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		D5C629561C3A7FAA007F7B7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/PlaceholderImagesTests/Info-macOS-Tests.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.PlaceholderImages-MacTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D284B10D1F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "PlaceholderImages-tvOS" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "PlaceholderImages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D284B10E1F79038B00D94AF3 /* Debug */,
-				D284B10F1F79038B00D94AF3 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D284B1101F79038B00D94AF3 /* Build configuration list for PBXNativeTarget "PlaceholderImages-tvOS-Tests" */ = {
+		OBJ_33 /* Build configuration list for PBXNativeTarget "PlaceholderImages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D284B1111F79038B00D94AF3 /* Debug */,
-				D284B1121F79038B00D94AF3 /* Release */,
+				OBJ_34 /* Debug */,
+				OBJ_35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D284B11D1F79039F00D94AF3 /* Build configuration list for PBXNativeTarget "PlaceholderImages-watchOS" */ = {
+		OBJ_46 /* Build configuration list for PBXNativeTarget "PlaceholderImagesPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D284B11E1F79039F00D94AF3 /* Debug */,
-				D284B11F1F79039F00D94AF3 /* Release */,
+				OBJ_47 /* Debug */,
+				OBJ_48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B2E8991C3A780C00C0327D /* Build configuration list for PBXProject "PlaceholderImages" */ = {
+		OBJ_52 /* Build configuration list for PBXAggregateTarget "PlaceholderImagesPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5B2E8B11C3A780C00C0327D /* Debug */,
-				D5B2E8B21C3A780C00C0327D /* Release */,
+				OBJ_53 /* Debug */,
+				OBJ_54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B2E8B31C3A780C00C0327D /* Build configuration list for PBXNativeTarget "PlaceholderImages-iOS" */ = {
+		OBJ_57 /* Build configuration list for PBXNativeTarget "PlaceholderImagesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5B2E8B41C3A780C00C0327D /* Debug */,
-				D5B2E8B51C3A780C00C0327D /* Release */,
+				OBJ_58 /* Debug */,
+				OBJ_59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B2E8B61C3A780C00C0327D /* Build configuration list for PBXNativeTarget "PlaceholderImages-iOS-Tests" */ = {
+		OBJ_68 /* Build configuration list for PBXNativeTarget "SwiftTestUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5B2E8B71C3A780C00C0327D /* Debug */,
-				D5B2E8B81C3A780C00C0327D /* Release */,
+				OBJ_69 /* Debug */,
+				OBJ_70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5C629511C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "PlaceholderImages-macOS" */ = {
+		OBJ_77 /* Build configuration list for PBXNativeTarget "SwiftTestUtilsPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5C629521C3A7FAA007F7B7C /* Debug */,
-				D5C629531C3A7FAA007F7B7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D5C629541C3A7FAA007F7B7C /* Build configuration list for PBXNativeTarget "PlaceholderImages-macOS-Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D5C629551C3A7FAA007F7B7C /* Debug */,
-				D5C629561C3A7FAA007F7B7C /* Release */,
+				OBJ_78 /* Debug */,
+				OBJ_79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D5B2E8961C3A780C00C0327D /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }
