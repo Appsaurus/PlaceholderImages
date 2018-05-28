@@ -1,0 +1,16 @@
+PODS:
+  - PlaceholderImages (0.1.0)
+
+DEPENDENCIES:
+  - PlaceholderImages (from `../../`)
+
+EXTERNAL SOURCES:
+  PlaceholderImages:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  PlaceholderImages: ab3268e49a6cd0ad55decba1c3f590047eb104b9
+
+PODFILE CHECKSUM: d10beb3600d4c177fbaa400d00589263caff43ac
+
+COCOAPODS: 1.5.0
