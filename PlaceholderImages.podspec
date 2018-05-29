@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "PlaceholderImages"
   s.summary          = "A short description of PlaceholderImages."
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.homepage         = "github.com/Strobocop/PlaceholderImages"
   s.license          = 'MIT'
   s.author           = { "Brian Strobach" => "brian@appsaurus.io" }
