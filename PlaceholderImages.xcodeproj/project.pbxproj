@@ -39,21 +39,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E49DB6A020BCB50200D772D8 /* PBXContainerItemProxy */ = {
+		E4D6236820DD887900E92AB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftTestUtils::SwiftTestUtils";
 			remoteInfo = SwiftTestUtils;
 		};
-		E49DB6A120BCB50200D772D8 /* PBXContainerItemProxy */ = {
+		E4D6236920DD887900E92AB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "PlaceholderImages::PlaceholderImages";
 			remoteInfo = PlaceholderImages;
 		};
-		E49DB6A220BCB50200D772D8 /* PBXContainerItemProxy */ = {
+		E4D6236A20DD887900E92AB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -136,12 +136,12 @@
 		OBJ_22 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_23 /* SwiftTestUtils 0.1.1 */,
+				OBJ_23 /* SwiftTestUtils 1.0.0 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_23 /* SwiftTestUtils 0.1.1 */ = {
+		OBJ_23 /* SwiftTestUtils 1.0.0 */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_24 /* Package.swift */,
@@ -149,7 +149,7 @@
 				OBJ_26 /* LinuxTestable.swift */,
 				OBJ_27 /* XCAssertions.swift */,
 			);
-			name = "SwiftTestUtils 0.1.1";
+			name = "SwiftTestUtils 1.0.0";
 			path = ".build/checkouts/SwiftTestUtils-3371106396395558887/Sources/Shared";
 			sourceTree = SOURCE_ROOT;
 		};
@@ -157,8 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				"SwiftTestUtils::SwiftTestUtils::Product" /* SwiftTestUtils.framework */,
-				"PlaceholderImages::PlaceholderImages::Product" /* PlaceholderImages.framework */,
 				"PlaceholderImages::PlaceholderImagesTests::Product" /* PlaceholderImagesTests.xctest */,
+				"PlaceholderImages::PlaceholderImages::Product" /* PlaceholderImages.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -356,17 +356,17 @@
 		OBJ_55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PlaceholderImages::PlaceholderImagesTests" /* PlaceholderImagesTests */;
-			targetProxy = E49DB6A220BCB50200D772D8 /* PBXContainerItemProxy */;
+			targetProxy = E4D6236A20DD887900E92AB9 /* PBXContainerItemProxy */;
 		};
 		OBJ_65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SwiftTestUtils::SwiftTestUtils" /* SwiftTestUtils */;
-			targetProxy = E49DB6A020BCB50200D772D8 /* PBXContainerItemProxy */;
+			targetProxy = E4D6236820DD887900E92AB9 /* PBXContainerItemProxy */;
 		};
 		OBJ_67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "PlaceholderImages::PlaceholderImages" /* PlaceholderImages */;
-			targetProxy = E49DB6A120BCB50200D772D8 /* PBXContainerItemProxy */;
+			targetProxy = E4D6236920DD887900E92AB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
