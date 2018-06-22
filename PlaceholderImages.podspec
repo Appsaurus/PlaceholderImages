@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = "PlaceholderImages"
   s.summary          = "A short description of PlaceholderImages."
-  s.version          = "0.1.2"
-  s.homepage         = "github.com/Strobocop/PlaceholderImages"
+  s.version          = "1.0.0"
+  s.homepage         = "github.com/Appsaurus/PlaceholderImages"
   s.license          = 'MIT'
   s.author           = { "Brian Strobach" => "brian@appsaurus.io" }
   s.source           = {
@@ -21,11 +21,6 @@ Pod::Spec.new do |s|
   s.tvos.source_files = 'Sources/{iOS,tvOS,Shared}/**/*'
   s.osx.source_files = 'Sources/{macOS,Shared}/**/*'
   s.watchos.source_files = 'Sources/{watchOS,Shared}/**/*'
-
-  # s.ios.frameworks = 'UIKit', 'Foundation'
-  # s.osx.frameworks = 'Cocoa', 'Foundation'
-  # s.dependency 'Whisper', '~> 1.0'
-  # s.watchos.exclude_files = ["Sources/AnimatedImageView.swift"] 
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
 end
