@@ -48,10 +48,6 @@ github "Strobocop/PlaceholderImages"
 
 **PlaceholderImages** can also be installed manually. Just download and drop `Sources` folders in your project.
 
-## Author
-
-Brian Strobach, brian@appsaurus.io
-
 ## Contributing
 
 We would love you to contribute to **PlaceholderImages**, check the [CONTRIBUTING](github.com/Strobocop/PlaceholderImages/blob/master/CONTRIBUTING.md) file for more info.
