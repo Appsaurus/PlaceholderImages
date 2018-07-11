@@ -1,11 +1,10 @@
 # PlaceholderImages
 
-[![CI Status](https://img.shields.io/circleci/project/github/Strobocop/PlaceholderImages.svg)](https://circleci.com/gh/Strobocop/PlaceholderImages)
-[![Version](https://img.shields.io/cocoapods/v/PlaceholderImages.svg?style=flat)](http://cocoadocs.org/docsets/PlaceholderImages)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License](https://img.shields.io/cocoapods/l/PlaceholderImages.svg?style=flat)](http://cocoadocs.org/docsets/PlaceholderImages)
-[![Platform](https://img.shields.io/cocoapods/p/PlaceholderImages.svg?style=flat)](http://cocoadocs.org/docsets/PlaceholderImages)
-![Swift](https://img.shields.io/badge/%20in-swift%204.0-orange.svg)
+![Swift](http://img.shields.io/badge/swift-4.1-orange.svg)
+[![Swift Package Manager](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://swift.org/package-manager/)
+[![Cocoapods](https://img.shields.io/badge/Cocoapods-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+![License](http://img.shields.io/badge/license-MIT-CCCCCC.svg)
 
 ## Description
 Micro library that generates urls for remote images.
