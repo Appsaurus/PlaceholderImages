@@ -8,14 +8,13 @@
 ![Swift](https://img.shields.io/badge/%20in-swift%204.0-orange.svg)
 
 ## Description
+Micro library that generates urls for remote images.
 
-**PlaceholderImages** description.
+Currently supports [Unsplash](https://www.unsplash.com), [LoremFlickr](https://loremflickr.com), [LoremPixel](http://lorempixel.com), [PlaceIMG](https://placeimg.com/) and [DummyImage](https://dummyimage.com).
 
 ## Usage
 
-```swift
-<API>
-```
+Usage description coming soon.
 
 ## Installation
 
@@ -23,7 +22,7 @@
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'PlaceholderImages'
+pod 'PlaceholderImages', :git => 'https://github.com/Appsaurus/PlaceholderImages'
 ```
 
 **PlaceholderImages** is also available through [Carthage](https://github.com/Carthage/Carthage).
