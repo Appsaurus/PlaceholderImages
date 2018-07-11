@@ -11,10 +11,6 @@ Micro library that generates urls for remote images.
 
 Currently supports [Unsplash](https://www.unsplash.com), [LoremFlickr](https://loremflickr.com), [LoremPixel](http://lorempixel.com), [PlaceIMG](https://placeimg.com/) and [DummyImage](https://dummyimage.com).
 
-## Usage
-
-Usage description coming soon.
-
 ## Installation
 
 **PlaceholderImages** is available through [Swift Package Manager](https://swift.org/package-manager/). To install, add the following to your Package.swift file.
@@ -47,6 +43,10 @@ github "Strobocop/PlaceholderImages"
 ```
 
 **PlaceholderImages** can also be installed manually. Just download and drop `Sources` folders in your project.
+
+## Usage
+
+Usage description coming soon.
 
 ## Contributing
 
